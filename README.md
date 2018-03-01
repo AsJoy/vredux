@@ -45,7 +45,6 @@ export default vredux.createStore({
 ```js
 import Vue from 'vue'
 import store from './store'
-const game = createGame()
 
 new Vue({
   el: '#app',
