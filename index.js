@@ -47,7 +47,6 @@ export const createStore = (reducers) => {
   subscribe(() => {
     _vm._data.$$game = state
   })
-
   return store
 }
 
@@ -67,12 +66,12 @@ export const install = (_Vue) => {
   }
   function vuexInit () {
     const options = this.$options
-    if (options.game) {
-      this.$game = typeof options.game === 'function'
-        ? options.game()
-        : options.game
-    } else if (options.parent && options.parent.$game) {
-      this.$game = options.parent.$game
+    if (options.store) {
+      this.$store = typeof options.store === 'function'
+        ? options.store()
+        : options.store
+    } else if (options.parent && options.parent.$store) {
+      this.$store = options.parent.$store
     }
   }
 }
