@@ -2,7 +2,7 @@
 
 ### 初衷
 
-vue项目按大模块拆分脱离，比方说我有现在的时一个大的游戏部分脱离业务拆分以方便下次重用，这时候，我不想依赖vuex等较重状态管理框架或者`eventhub` 这种较简陋的模型，于是结合redux与vuex简单实现了一个min状态管理库用法结合了vuex与redux，结合了vuex的reactive与redux的轻量，用法也很简单，对于熟悉redux或vuex的人来说可以无痛接入项目
+vue项目按大模块拆分脱离，比方说我有现在一个大的游戏部分脱离业务拆分以方便下次重用，这时候，我不想依赖vuex等较重状态管理框架或者`eventhub` 这种较简陋的模型，于是结合redux与vuex简单实现了一个min状态管理库。用法参考vuex与redux，结合了vuex的reactive与redux的轻量，用法也很简单，对于熟悉redux或vuex的人来说可以无痛接入项目，可以无缝接入redux-thunk等插件
 
 ### usage
 
