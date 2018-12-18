@@ -1,6 +1,6 @@
 {
   "name": "vredux",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -20,6 +20,7 @@
     "babel-preset-stage-0": "^6.24.1",
     "babel-runtime": "^6.26.0"
   },
+  "files": [],
   "author": "niuyuanqiang <1347827212@qq.com> (https://github.com/AsJoy)",
   "license": "MIT"
 }
