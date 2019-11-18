@@ -22,5 +22,8 @@
   },
   "files": [],
   "author": "niuyuanqiang <1347827212@qq.com> (https://github.com/AsJoy)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
 }
